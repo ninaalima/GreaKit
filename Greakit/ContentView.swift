@@ -263,12 +263,12 @@ struct ContentView: View {
                                 }
                             }
                         }
-                        .frame(width: UIScreen.main.bounds.width/2.5, height: UIScreen.main.bounds.width/2.25, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                        .frame(width: UIScreen.main.bounds.width/2.5, height: UIScreen.main.bounds.width/2.25, alignment: .center)
                         .background(Color.yellow)
                         .cornerRadius(12)
                         
                         Spacer()
-                        
+                        // MARK: Orquestrilha
                         Button(action: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/{}/*@END_MENU_TOKEN@*/) {
                             VStack {
                                 HStack {
@@ -287,7 +287,7 @@ struct ContentView: View {
                                     
                                 }
                                 HStack {
-                                    Text("Orquestilha")
+                                    Text("Orquestrilha")
                                         .font(.title3)
                                         .fontWeight(.medium)
                                         .foregroundColor(Color.white)
@@ -305,14 +305,15 @@ struct ContentView: View {
                                 }
                             }
                         }
-                        .frame(width: UIScreen.main.bounds.width/2.5, height: UIScreen.main.bounds.width/2.25, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                        .frame(width: UIScreen.main.bounds.width/2.5, height: UIScreen.main.bounds.width/2.25, alignment: .center)
                         .background(Color.green)
                         .cornerRadius(12)
                         
                         Spacer()
                     }
-                    .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.width/2.25, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                    .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.width/2.25, alignment: .center)
                     
+                    // MARK: Homepod
                     ZStack {
                         VStack {
                             HStack {
